@@ -41,7 +41,7 @@ project_root = os.path.abspath(os.path.join(here, "../.."))
 
 # Extend the system path to include the project root and import the env files
 sys.path.insert(0, project_root)
-import env_lab  # noqa
+import env_lab  #
 
 # Create an XML body to execute the save operation
 save_body = """

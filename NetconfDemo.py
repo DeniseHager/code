@@ -1,9 +1,9 @@
 """
-This script automates the code found int he 'Breaking down NETCONF communictions in the Cisco DevNet lab
+This script automates the code found in the 'Breaking down NETCONF communictions in the Cisco DevNet lab
 Please use the env_lab file provided by your instructor.
 """
 from ncclient import manager
-from prep import env_lab
+import env_lab
 NCManager=manager.connect(
     host=env_lab.IOS_XE_1["host"],
     port=env_lab.IOS_XE_1["netconf_port"],
